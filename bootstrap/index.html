@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="sidebar.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed 
+    <script src="js/bootstrap.min.js"></script>
+-->
+
+    <div class="container" style="border:1px solid red;">
+      ABC
+    </div>
+
+    <div class="container-fluid" style="border:1px solid green;">
+      DEF 
+      <br>
+      <p> highlighting <mark>TEXT</mark></p>
+
+      <blockquote>
+        <p>This is blockquote testing.</p>
+        <footer>Bootstrap</footer>
+      </blockquote>
+
+
+      <h4>Bootstrap List</h4>
+      <dl>
+        <dt>Indoor</dt>
+          <dd>Sleep</dd>
+          <dd>Movies</dd>
+        <dt>Outdoor</dt>
+          <dd>GO Back</dd>
+
+      </dl>
+
+      <p>Code Formatting <code>Testing</code></p>
+
+      <p>For mutliline code use pre tag</p>
+      <pre>
+        for(i=1;i<=100;i++){
+          print("abc");
+
+        }
+      </pre>
+
+     <p>This is keyboard input <kbd>Ctrl + Alt + T</kbd></p> 
+
+
+     <h4>Built in Color Classes for Text </h4>
+     <p class="text-muted">This is using class 'text-muted'</p>
+     <p class="text-success">This is using class 'text-success'</p>
+     <p class="text-danger">This is using class 'text-danger'</p>
+
+     <h4>Using bg classes</h4>
+     <p class='bg-success'>This is using class 'bg-success'</p>
+     <p class='bg-danger'>This is using class 'bg-danger'</p>
+
+     <h3>Bootstrap Tables</h3>
+
+     <h2>Simple Table</h2>
+     <table class="table">
+        <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>User 1</td>
+                <td>11</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>User 2</td>
+                <td>22</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td>User 3</td>
+                <td>33</td>
+                <td>333</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <h2>Condensed Table</h2>
+     <table class="table table-condensed">
+        <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>User 1</td>
+                <td>11</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>User 2</td>
+                <td>22</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td>User 3</td>
+                <td>33</td>
+                <td>333</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <h2>Stripped Table</h2>
+     <table class="table table-striped">
+        <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>User 1</td>
+                <td>11</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td>User 2</td>
+                <td>22</td>
+                <td>222</td>
+            </tr>
+            <tr>
+                <td>User 3</td>
+                <td>33</td>
+                <td>333</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <h2>Images Testing</h2>
+
+     <img src="http://ollomedia.com/wp-content/uploads/Bootstrap-2-1-Is-the-Latest-Update-to-Twitter-s-Popular-Open-Source-Project.png">
+     <img src="http://ollomedia.com/wp-content/uploads/Bootstrap-2-1-Is-the-Latest-Update-to-Twitter-s-Popular-Open-Source-Project.png" class="img-rounded" width="230" height="230" >
+     <img src="http://ollomedia.com/wp-content/uploads/Bootstrap-2-1-Is-the-Latest-Update-to-Twitter-s-Popular-Open-Source-Project.png" class="img-circle" width="230" height="230" >
+
+     <h2>Image Testing For Responsive and Non-Responsive</h2>
+     <p>Non Responsive means simple image loaded</p>
+     <img src="http://ollomedia.com/wp-content/uploads/Bootstrap-2-1-Is-the-Latest-Update-to-Twitter-s-Popular-Open-Source-Project.png">
+     <p>Used 'img-responsive' class for responsiveness</p>
+     <img src="http://ollomedia.com/wp-content/uploads/Bootstrap-2-1-Is-the-Latest-Update-to-Twitter-s-Popular-Open-Source-Project.png" class="img-responsive">
+
+     <h3>Adding Video and Making it responsive</h3>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responive-item" src="http://www.youtube.com/embed/ClHu3XQBnGU"></iframe>
+    </div>
+    </div> 
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>Nav Bar Implementation : Moved Out of the first defined container.</h2>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Bootstrap Test</a>
+            </div>
+            
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <h2>Inverse Style</h2>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Bootstrap Test</a>
+            </div>
+            
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> My Profile <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <h2>Navbar With Toggle Button</h2>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Bootstrap Test</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <h2>Wells & Alert Boxes</h2>
+
+    <div class="container">
+        <h2> Wells are scetion with borders and grey backgrounds.</h2>
+        <div class="well">Baisc Well</div>
+        <div class="well well-sm">Basic Small Well</div>
+        <div class="alert alert-success">Alert, well by using class 'alert alert-success'</div>
+        <div class="alert alert-info">Alert, well by using class 'alert alert-info'</div>
+        <div class="alert alert-danger">Alert, well by using class 'alert alert-danger'</div>
+
+        <h4>Wells alert with cose button.</h4>
+        <div class="alert alert-info">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            This is the alert with close functionality using 'data-dismiss' &'aria-label' with anchor tag and using text "&times;" for 'X' icon.
+        </div>
+
+        <div class="alert alert-danger fade in">
+            <a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            This is the alert with close functionality using 'data-dismiss' &'aria-label' with anchor tag and using text "&times;" for 'X' icon.
+            It also have 'fade in' class in main div for to show fade in effect while closing.
+        </div>
+
+
+    </div>
+	<div class="container-fluid">
+        <h2> Different Device Layout.</h2>
+		
+		<h3>Phone Entire Width & Desktop 1/2 Width</h3>
+		<div class="row">
+			<div class="col-xs-12 col-md-6" style="background-color:red;">Phone Entire Width & Desktop 1/2 Width</div>
+			<div class="col-xs-12 col-md-6" style="background-color:green">Phone Entire Width & Desktop 1/2 Width</div>
+			<div class="col-xs-12 col-md-6" style="background-color:blue">Phone Entire Width & Desktop 1/2 Width</div>
+		</div>
+		
+		<h3>Phone 1/2 & Desktop 1/3</h3>
+		<div class="row">
+			<div class="col-xs-6 col-md-4" style="background-color:red;">Phone 1/2 * Desktop 1/3</div>
+			<div class="col-xs-6 col-md-4" style="background-color:green;">Phone 1/2 * Desktop 1/3</div>
+			<div class="col-xs-6 col-md-4" style="background-color:blue;">Phone 1/2 * Desktop 1/3</div>
+		</div>
+        
+		<h2>Offsetting Columns</h2>
+		<div class="row">
+			<div class="col-md-4" style="background-color:red;"> 4 column wide</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2" style="background-color:green;"> 4 column wide with 2 offset</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-3" style="background-color:blue;">4 column wide wi</div>
+		</div>
+    </div>
+	<div class="container-fluid">
+		<h3> Push & Pull </h3>
+		<div class="row">
+			<div class="col-md-5 col-md-push-5" style="background-color:red;">Column A</div>
+			<div class="col-md-5 col-md-pull-5" style="background-color:green;">Column B</div>	
+			<div class="col-md-2" style="background-color:blue">Column C</div>
+		</div>
+	</div>
+    <div class="test">This is testing for loading sidebar CSS.</div>
+	
+	<div class="container">
+		<h3>Log In Modal Window</h3>
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#popUpWindow">Open Log In Window</button>
+		
+		<div class="modal fade" id="popUpWindow">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2>Log In</h2>
+					</div>
+					<div class="modal-body">
+						<form role="form">
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" placeholder="Password">
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary">Log In</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <h2>Sidebar Menu</h2>
+
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Logout</a></li>
+          </ul>
+      </div>
+
+      <!-- Page COntent -->
+      <div id="page-content-wrapper">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <a href="#" class="btn btn-success" id="menu-toggle">Toggle Menu</a>
+
+                      <h1>Sidebar layouts are cool</h1>
+                      <p>This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.This is testing content.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+	
+    
+
+    <!-- Menu Toggle Script -->
+
+    <script>
+        $("#menu-toggle").click( function(e){
+            e.preventDefault();
+            $("#wrapper").toggleClass("menuDisplayed");
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
