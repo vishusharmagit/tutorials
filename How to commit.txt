@@ -1,0 +1,7 @@
+When u add new folders/files
+
+Step 1 : Run command "git add ."
+
+Step 2 : Run command "git commit -am  'User Definded comments' "
+
+Step 3 : Run command "git push"
