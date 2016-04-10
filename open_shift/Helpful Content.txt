@@ -1,3 +1,5 @@
 Deploy war file in Tomcat 7 on OpenShift
 
 https://www.youtube.com/watch?v=dVtlfxbah5w
+
+https://shekhargulati.com/2012/11/25/deploy-war-on-tomcat-running-on-openshift/
