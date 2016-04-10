@@ -1,0 +1,3 @@
+Deploy war file in Tomcat 7 on OpenShift
+
+https://www.youtube.com/watch?v=dVtlfxbah5w
